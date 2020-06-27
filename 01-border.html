@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--固定寬度元素得居中實現方式--margin: auto;-->
+    <style>
+    #test{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: auto;
+        border: 2px solid blue;
+        border-bottom-color: transparent;
+    }
+    #test2{width:0 ; height:0; margin: auto;
+    border:50px solid black ;
+    border-bottom-color: transparent;}
+    #test3{width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 0 auto;
+    border: 5px solid lawngreen;
+    border-radius:50% ;}
+    input{outline: none;
+    }
+    </style>
+</head>
+<body>
+    <div id="test">
+    </div>
+    <div id="test2"></div>
+    <div id="test3"></div>
+    <input type="text">
+    <input type="submit" value="提交">
+    <input type="button" value="操作">
+    
+</body>
+</html>
